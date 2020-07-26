@@ -1,0 +1,184 @@
+body {
+  background-color: #0C122C;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+p {
+  padding-left: 40px;
+  padding-top: 30px;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 200;
+}
+
+span {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+  color: #848794;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #DDDBFF;
+}
+
+a:hover {
+  color: #FF4D97;
+}
+
+.left {
+  color: #0C122C;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.top-container {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+}
+
+.fylo {
+  background-color: #1D2C67;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  height: 200px;
+  width: 320px;
+  position: absolute;
+  margin: 200px auto auto 300px;
+}
+
+.logo {
+  position: absolute;
+  margin: 40px auto auto 40px;
+  text-align: left;
+}
+
+.icons1 {
+  background-color: #0C122C;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+  margin: 130px auto auto 40px;
+}
+
+.icons2 {
+  background-color: #0C122C;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+  margin: 130px auto auto 100px;
+}
+
+.icons3 {
+  background-color: #0C122C;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+  margin: 130px auto auto 160px;
+}
+
+.storage {
+  background-color: #1D2C67;
+  position: absolute;
+  height: 150px;
+  width: 550px;
+  margin: 250px auto auto 650px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.storage-left {
+  background-color: white;
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  height: 80px;
+  width: 180px;
+  position: absolute;
+  left: 980px;
+  top: 200px;
+}
+
+.triangle {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin-left: 150px;
+  background: linear-gradient(to top right, transparent 50%, white 5%);
+}
+
+.slide-bar {
+  height: 20px;
+  width: 480px;
+  border-radius: 10px;
+  background-color: #0C122C;
+  margin: 5px auto;
+}
+
+.bar span {
+  height: 10px;
+  float: left;
+  background: linear-gradient(to right, #FFA399, #FF4D97);
+  border-radius: 10px;
+  margin: 5px auto auto 5px;
+}
+
+.slide {
+  width: 80%;
+  animation: slide 2s;
+}
+
+@keyframes slide {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+.ini {
+  color: white;
+  margin-left: 40px;
+}
+
+.fin {
+  margin-left: 370px;
+  color: white;
+}
+
+.img1 {
+  width: 100%;
+  margin-top: 300px;
+}
+
+.picture1 {
+  margin: 7px auto;
+}
+
+.picture2 {
+  margin: 10px auto;
+}
+
+.picture3 {
+  margin: 12px auto;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 20px;
+  margin: 10px 530px;
+  color: #848794;
+  font-size: 0.8rem;
+}
